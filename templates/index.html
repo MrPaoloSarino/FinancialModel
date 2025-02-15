@@ -1,1 +1,19 @@
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSV Transformer</title>
+</head>
+<body>
+  <h1>CSV Transformer</h1>
+  <form action="/" method="post" enctype="multipart/form-data">
+    <label for="file">Upload CSV File:</label>
+    <input type="file" name="file" id="file" required><br><br>
+    <label for="start_year">Start Year:</label>
+    <input type="number" name="start_year" id="start_year" value="2000" required><br><br>
+    <label for="end_year">End Year:</label>
+    <input type="number" name="end_year" id="end_year" value="2023" required><br><br>
+    <input type="submit" value="Transform CSV">
+  </form>
+</body>
+</html>
