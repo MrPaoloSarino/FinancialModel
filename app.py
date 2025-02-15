@@ -65,7 +65,7 @@ def transform_csv_data(file_data, start_year, end_year):
     df_transposed = df_transposed.loc[desired_order]
     return df_transposed
 
-def write_to_template_in_memory(df, template_path, start_row=5, start_col=2):
+def write_to_template_in_memory(df, template_path, start_row=6, start_col=4):
     """
     Writes the DataFrame into the Excel template and returns an in-memory BytesIO object.
     """
